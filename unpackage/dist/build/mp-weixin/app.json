@@ -1,0 +1,51 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/cart/cart",
+        "pages/members/members",
+        "pages/news/news",
+        "pages/goods/goods",
+        "pages/contact/contact",
+        "pages/pics/pics",
+        "pages/goodsdetail/goodsdetail",
+        "pages/indexDetail/indexDetail"
+    ],
+    "subPackages": [],
+    "window": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "我的商城",
+        "navigationBarBackgroundColor": "#B50e03",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "selectedColor": "#B50e03",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "static/icon/首页.png",
+                "selectedIconPath": "static/icon/首页_a.png"
+            },
+            {
+                "pagePath": "pages/news/news",
+                "text": "资讯",
+                "iconPath": "static/icon/资讯.png",
+                "selectedIconPath": "static/icon/资讯_a.png"
+            },
+            {
+                "pagePath": "pages/cart/cart",
+                "text": "购物车",
+                "iconPath": "static/icon/购物车.png",
+                "selectedIconPath": "static/icon/购物车_a.png"
+            },
+            {
+                "pagePath": "pages/members/members",
+                "text": "我的",
+                "iconPath": "static/icon/登陆.png",
+                "selectedIconPath": "static/icon/登陆_a.png"
+            }
+        ]
+    },
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
+}
