@@ -1,1 +1,0 @@
-<view class="contact"><image class="photo" src="http://www.itcast.cn/2018czydz/images/gywmban.jpg" mode></image><view class="info"><view data-event-opts="{{[['tap',[['photo',['$event']]]]]}}" bindtap="__e">联系电话：18862579930（点击拨打,同微信）</view><view>联系地址：江苏省南京市南京南站</view></view><map latitude="{{latitude}}" longitude="{{longitude}}" scale="{{scale}}" markers="{{markers}}"></map></view>
